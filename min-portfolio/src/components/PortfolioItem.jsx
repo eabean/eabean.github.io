@@ -20,9 +20,6 @@ function Portfolio({title, imgUrl, stack, link}) {
                 </p>
             </div>
         </div>
-
-
-
     )
 
 }
