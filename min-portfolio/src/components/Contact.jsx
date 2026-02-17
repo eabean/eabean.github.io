@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Title from "./Title";
 
 const FORM_ID = "xsinbrqn06l";
 
@@ -25,6 +26,7 @@ function Contact() {
             <div className="flex justify-center items-center">
                 <form onSubmit={handleSubmit}
                     className="flex flex-col w-full md:w-7/12">
+                        <Title id="contact">Contact</Title>
                         <input
                             type="text"
                             name="fi-sender-fullName"
