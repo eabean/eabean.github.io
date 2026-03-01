@@ -1,20 +1,31 @@
+import chase from "../assets/chase.png"
+import classification from "../assets/classification.png"
+import map from "../assets/map.png"
+import resume from "../assets/resume.png"
+
 export default [
   {
     title: "RunBuddies",
-    imgUrl: "",
+    imgUrl: chase,
     stack: ["C#", "PostgreSQL"],
-    link: "",
+    link: "https://github.com/eabean/RunBuddies",
   },
   {
     title: "My Portfolio",
-    imgUrl: "",
+    imgUrl: resume,
     stack: ["React", "Tailwind", "Vite"],
-    link: "",
+    link: "https://github.com/eabean/eabean.github.io",
   },
   {
     title: "Support Ticket Tagger",
-    imgUrl: "",
+    imgUrl: classification,
     stack: ["C#", "Python"],
     link: "",
+  },
+  {
+    title: "ScavengerHuntGenerator",
+    imgUrl: map,
+    stack: ["C#"],
+    link: "https://github.com/eabean/ScavengerHuntGenerator",
   },
 ]

@@ -2,11 +2,14 @@ import React from "react";
 
 function Portfolio({title, imgUrl, stack, link}) {
     return (
+        <a href={link || undefined} target={link ? "_blank" : undefined} rel="noopener noreferrer">
         <div class="border-2 border-stone-900 rounded-md overflow-hidden">
-            <img src={imgUrl} 
-                alt="portfolio"
-                className="w-full h-36 md:h-48 object-cover cursor-pointer"
-            />
+            <div className="w-full h-40 md:h-52 p-3 flex items-center justify-center">
+                <img src={imgUrl}
+                    alt="portfolio"
+                    className="max-h-full max-w-full object-contain cursor-pointer"
+                />
+            </div>
             <div className="w-full p-4">
                 <h3 className="text-lg md:text-xl mb-2 md:mn-3 font-semibold">
                     {title}
@@ -20,6 +23,7 @@ function Portfolio({title, imgUrl, stack, link}) {
                 </p>
             </div>
         </div>
+        </a>
     )
 
 }
