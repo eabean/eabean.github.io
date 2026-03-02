@@ -3,7 +3,7 @@ import React from "react";
 function Portfolio({title, imgUrl, stack, link}) {
     return (
         <a href={link || undefined} target={link ? "_blank" : undefined} rel="noopener noreferrer">
-        <div class="border-2 border-stone-900 rounded-md overflow-hidden">
+        <div class="border-2 border-stone-900 rounded-md overflow-hidden shadow-none hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.15)] transition-shadow duration-300">
             <div className="w-full h-40 md:h-52 p-3 flex items-center justify-center">
                 <img src={imgUrl}
                     alt="portfolio"
