@@ -7,12 +7,14 @@ import TimelinePage from './pages/TimelinePage'
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App flex flex-col min-h-screen'>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/timeline" element={<TimelinePage />} />
-      </Routes>
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/timeline" element={<TimelinePage />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   )
