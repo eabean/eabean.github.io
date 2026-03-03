@@ -14,7 +14,9 @@ function Timeline() {
                         year={item.year}
                         title={item.title}
                         duration={item.duration}
-                        details={item.details} />
+                        details={item.details}
+                        skills={item.skills}
+                        place={item.place} />
                 ))}
             </div>
         </div>

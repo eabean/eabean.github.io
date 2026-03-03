@@ -5,7 +5,8 @@ export default [
     duration: "4 years - Now",
     details:
       "Developed software solutions for fund accounting and settlements business units. Supported a portfolio management platform.",
-    skills: "Tech: .NET, C#, SQL, VB.NET, React, AWS",
+    skills: ".NET, C#, SQL, VB.NET, React, AWS",
+    place: "Orbis Investments",
   },
   {
     year: "2021",
@@ -13,7 +14,8 @@ export default [
     duration: "5 months",
     details:
       "Shipped features for an open-source education tool that allows users to co-design learning modules together.",
-    skills: "Tech: Vue.js, PHP, WAMP, WordPress",
+    skills: "Vue.js, PHP, WAMP, WordPress",
+    place: "Department of Psychology, University of British Columbia",
   },
   {
     year: "2021",
@@ -22,6 +24,7 @@ export default [
     details:
       "Double majored in Computer Science and English Language from the University of British Columbia with high distinction.",
     skills: "",
+    place: "University of British Columbia",
   },
   {
     year: "2021",
@@ -30,6 +33,7 @@ export default [
     details:
       "Provided troubleshooting support for technology issues for a university psychology department.",
     skills: "Problem-solving, communication",
+    place: "Department of Psychology, University of British Columbia",
   },
   {
     year: "2020",
@@ -37,7 +41,8 @@ export default [
     duration: "6 months",
     details:
       "Developed infographics on lake water quality and created reference maps for areas in Northwestern BC.",
-    skills: "Tech: Tableau, QGIS",
+    skills: "Tableau, QGIS",
+    place: "Eclipse Geomatics Ltd.",
   },
   {
     year: "2018",
@@ -45,6 +50,7 @@ export default [
     duration: "4 months",
     details:
       "Created e-learning modules, film content, and migrated course materials for a university medicine department.  ",
-    skills: "Tech: Articulate 360, Adobe Premiere Pro, Canvas",
+    skills: "Articulate 360, Adobe Premiere Pro, Canvas",
+    place: "Faculty of Medicine, University of British Columbia",
   },
 ]
