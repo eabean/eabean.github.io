@@ -22,7 +22,7 @@ function Contact() {
     }
 
     return (
-        <div className="flex flex-col mb-10 mx-auto">
+        <div className="flex flex-col mt-20 mb-10 mx-auto">
             <div className="flex justify-center items-center">
                 <form onSubmit={handleSubmit}
                     className="flex flex-col w-full md:w-7/12">
