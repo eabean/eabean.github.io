@@ -23,7 +23,7 @@ export default [
     link: "",
   },
   {
-    title: "ScavengerHuntGenerator",
+    title: "Scavenger Hunt Generator",
     imgUrl: map,
     stack: ["C#"],
     link: "https://github.com/eabean/ScavengerHuntGenerator",
