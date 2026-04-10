@@ -2,6 +2,7 @@ import chase from "../assets/chase.png"
 import classification from "../assets/classification.png"
 import map from "../assets/map.png"
 import resume from "../assets/resume.png"
+import resumetailor from "../assets/resumetailor.png"
 
 export default [
   {
@@ -17,9 +18,9 @@ export default [
     link: "https://github.com/eabean/eabean.github.io",
   },
   {
-    title: "Support Ticket Tagger",
-    imgUrl: classification,
-    stack: ["C#", "Python"],
+    title: "Resume Tailor",
+    imgUrl: resumetailor,
+    stack: ["Python", "Steamlit"],
     link: "",
   },
   {

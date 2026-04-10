@@ -1,9 +1,10 @@
 import React from "react";
+import profilePhoto from "../assets/profile5.jpg";
 
 function Intro() {
     return (
         <div className="flex items-center justify-center gap-10 pt-10 pb-6">
-            <div className="w-32 h-32 md:w-64 md:h-64 rounded-full border-stone-900 bg-stone-200 flex-shrink-0 mb-6" />
+            <img src={profilePhoto} alt="Profile photo" className="w-32 h-32 md:w-64 md:h-64 rounded-full object-cover flex-shrink-0 mb-6" />
             <div className="flex flex-col text-left">
                 <div className="relative group inline-block cursor-default mb-1 md:mb-3">
                     <h1 className="text-4xl md:text-3xl font-bold">Hi, I’m Enid.</h1>
