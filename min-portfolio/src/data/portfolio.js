@@ -1,5 +1,5 @@
 import chase from "../assets/chase.png"
-import classification from "../assets/classification.png"
+import world from "../assets/world.png"
 import map from "../assets/map.png"
 import resume from "../assets/resume.png"
 import resumetailor from "../assets/resumetailor.png"
@@ -21,12 +21,18 @@ export default [
     title: "Resume Tailor",
     imgUrl: resumetailor,
     stack: ["Python", "Steamlit"],
-    link: "",
+    link: "https://github.com/eabean/ResumeTailor",
   },
   {
     title: "Scavenger Hunt Generator",
     imgUrl: map,
     stack: ["C#"],
     link: "https://github.com/eabean/ScavengerHuntGenerator",
+  },
+  {
+    title: "Covid-19 Travel Guide",
+    imgUrl: world,
+    stack: ["Vue", "Javascript"],
+    link: "https://github.com/eabean/Covid-19-Travel-Guide",
   },
 ]
